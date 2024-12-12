@@ -1,0 +1,15 @@
+def calculate_area(length, width):
+    area = length * width
+    return area
+
+def main():
+    length = float(input("Введите длину прямоугольника: "))
+    width = float(input("Введите ширину прямоугольника: "))
+
+
+    area = calculate_area(length, width)
+
+
+    print(f"Площадь прямоугольника равна: {area}")
+if __name__ == "__main__":
+    main()
